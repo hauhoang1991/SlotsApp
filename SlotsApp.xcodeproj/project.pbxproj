@@ -11,6 +11,8 @@
 		47B0797F28CA63AB00DB17F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0797E28CA63AB00DB17F9 /* ContentView.swift */; };
 		47B0798128CA63B000DB17F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B0798028CA63B000DB17F9 /* Assets.xcassets */; };
 		47B0798428CA63B000DB17F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B0798328CA63B000DB17F9 /* Preview Assets.xcassets */; };
+		47B0798B28CA720A00DB17F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0798A28CA720A00DB17F9 /* CardView.swift */; };
+		47B0798D28CA795200DB17F9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0798C28CA795100DB17F9 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		47B0797E28CA63AB00DB17F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47B0798028CA63B000DB17F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B0798328CA63B000DB17F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47B0798A28CA720A00DB17F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		47B0798C28CA795100DB17F9 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				47B0797C28CA63AB00DB17F9 /* SlotsAppApp.swift */,
+				47B0798C28CA795100DB17F9 /* AlertView.swift */,
 				47B0797E28CA63AB00DB17F9 /* ContentView.swift */,
+				47B0798A28CA720A00DB17F9 /* CardView.swift */,
 				47B0798028CA63B000DB17F9 /* Assets.xcassets */,
 				47B0798228CA63B000DB17F9 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B0797F28CA63AB00DB17F9 /* ContentView.swift in Sources */,
+				47B0798D28CA795200DB17F9 /* AlertView.swift in Sources */,
+				47B0798B28CA720A00DB17F9 /* CardView.swift in Sources */,
 				47B0797D28CA63AB00DB17F9 /* SlotsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
